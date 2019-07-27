@@ -6,7 +6,7 @@ class Navbar extends Component {
         return (
             <ul className="nav justify-content-center">
                 <li className="nav-item">
-                    <a className="brand" href="/">Clicky Game</a>
+                    <a className="brand" href="/clicky-game">Clicky Game</a>
                 </li>
                 <li className="nav-item">
                     <p>{this.props.isCorrect}</p>
