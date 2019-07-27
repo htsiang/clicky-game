@@ -3,7 +3,7 @@ import "./style.css";
 
 function ImageCard(props) {
     return (
-        <img src={require ('../../images/' + props.imgsrc)} alt="" className="img-thumbnail"></img>
+        <img src={require ('../../images/' + props.imgsrc)} data-id={props.imgsrc} alt="" className="img-thumbnail" onClick={props.onClick}></img>
     );
 };
 
