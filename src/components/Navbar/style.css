@@ -1,0 +1,19 @@
+.nav {
+    background-color: #5133a4;
+    height: 75px;
+}
+
+.nav-item {
+    width: 33%;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    padding-top: 17px;
+}
+
+.brand, .brand:hover {
+    text-decoration: none;
+    padding-top: 0px;
+    color: white;
+    font-weight: 900;
+}

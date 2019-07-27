@@ -1,0 +1,17 @@
+.header {
+    text-align: center;
+    padding: 130px;
+    background-image: url("https://wallpaperaccess.com/full/130061.png");
+    box-shadow: inset 0px 10px 10px grey;
+    margin-bottom: 50px;
+}
+
+#title {
+    font-size: 70px;
+    font-weight: bolder;
+}
+
+#subtitle {
+    font-size: 25px;
+    font-weight: bold;
+}
